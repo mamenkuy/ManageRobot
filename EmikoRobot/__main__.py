@@ -98,7 +98,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
+            text="Channel", url=f"https://t.me/skymusicku")
         ),
     ],
     [
@@ -106,7 +106,7 @@ buttons = [
             text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
     [
-       InlineKeyboardButton(text="Donasi", url=f"https://t.me/logskymusik/71694"),
+       InlineKeyboardButton(text="Donasi", url=f"https://t.me/skymusicku/559"),
 
     ],
 ]
