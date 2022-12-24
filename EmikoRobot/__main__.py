@@ -98,7 +98,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Channel", url=f"https://t.me/skymusicku")
+            text="Channel", url=f"https://t.me/skymusicku"
         ),
     ],
     [
