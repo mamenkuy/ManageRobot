@@ -43,12 +43,9 @@ async def repo(_, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "Repo", url="https://github.com/mamenkuy/ManageRobot"), 
-                    InlineKeyboardButton(
-                        "Support", url="https://t.me/havingsexid")
-                    InlineKeyboardButton(
-                        "Channel", url="https://t.me/skymusicku")
+                    InlineKeyboardButton("Repo", url="https://github.com/mamenkuy/ManageRobot"), 
+                    InlineKeyboardButton("Support", url="https://t.me/havingsexid")
+                    InlineKeyboardButton("Channel", url="https://t.me/skymusicku")
                 ]
             ]
         )
