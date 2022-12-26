@@ -46,10 +46,9 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Repo", url="https://github.com/mamenkuy/ManageRobot"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/havingsexid")
+                        "Support", url=f"https://t.me/havingsexid")
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/skymusicku")
-
+                        "Channel", url=f"https://t.me/skymusicku")
                 ]
             ]
         )
